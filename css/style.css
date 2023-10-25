@@ -1,15 +1,43 @@
-*{
+* {
     margin: 0;
-    height: 0;
-    width: 0;
-    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: grey;
 }
-.logo-boolist{
-
+header{
+    background-color: white;
+    margin-bottom: auto;
+    padding: 20px;
 }
+.form-one{
+    border: solid 2px;
+    padding: 4px;
+    background-color: blue;
+    border-radius: 14%;
+    margin-bottom: ;
+}
+.form-two{
+    border: solid 2px;
+    padding: 4px;
+    background-color: white;
+    border-radius: 14%;
+}
+main{
+    margin-top: 20px;
+}
+.border-bottom{
+    border-bottom: solid 1px;
+    color: black;
+}
+.valid{
+    color: green;
+    border-radius: 50px;
+    border-style: hidden 10px;
+}
+.invalid{
+    color:#FF3030 ;
+}
+.text{
+ 
 
-body{
-    background-color: rgb(215, 215, 215);
-    width: 80%;
-    margin: 0 auto;
 }
