@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    height: 0;
+    width: 0;
+    border: 0;
+}
+.logo-boolist{
+
+}
+
+body{
+    background-color: rgb(215, 215, 215);
+    width: 80%;
+    margin: 0 auto;
+}
