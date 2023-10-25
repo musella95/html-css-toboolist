@@ -2,25 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: grey;
+    
 }
 header{
     background-color: white;
-    margin-bottom: auto;
-    padding: 20px;
+    margin-bottom: 40px;
+    padding: 50px;
 }
-.form-one{
-    border: solid 2px;
-    padding: 4px;
-    background-color: blue;
-    border-radius: 14%;
-    margin-bottom: ;
+ #form-one{
+    background-color: #14AAF5;
+    border: 1px #14AAF5 solid;
+    border-radius: 5px;
+    padding: 4px 10px;
+    
 }
-.form-two{
-    border: solid 2px;
-    padding: 4px;
-    background-color: white;
-    border-radius: 14%;
+#form-two{
+    background-color:white;
+    border: 1px rgb(58, 54, 54) solid;
+    border-radius: 5px;
+    padding: 4px 10px;
+    
 }
 main{
     margin-top: 20px;
@@ -30,14 +31,68 @@ main{
     color: black;
 }
 .valid{
-    color: green;
-    border-radius: 50px;
-    border-style: hidden 10px;
+    
+    display: inline;
+    border: 1px #2CC6AB solid;
+    border-radius: 999px;
+    padding:0px 2px;
+    line-height: 14px;
+    margin-right: 4px;
+    height: 14px;
+    width: 14px;
+    color: #2CC6AB;
+    font-size: 10px;
 }
 .invalid{
-    color:#FF3030 ;
+    display: inline;
+    border: 1px #FF0000 solid;
+    border-radius: 999px;
+    padding:0px 2px;
+    line-height: 14px;
+    margin-right: 4px;
+    height: 14px;
+    width: 14px;
+    color: #FF0000;
+    font-size: 10px; 
 }
-.text{
- 
+main{
+ width: 60%;
+ margin: 0 auto;
+ background-color: white;
 
+}
+.editorial{
+    background-color: #14AAF5;
+    
+}
+body{
+    background-color: #F6F8F9;
+}
+.tag{
+    border-radius: 3px;
+    padding: 1px 1px;
+    color: white;
+}
+.Q1goals{
+    background-color:#AB5DE6 ;
+}
+.recruiting{
+    background-color:#2CC6AB ;
+}
+.mobile{
+    background-color: #FF9B00;
+}
+.website{
+    background-color: #EC4A9D;
+}
+.Sales{
+    background-color: #A3D116;
+}
+#primo{
+    padding-top: 4px;
+}
+.bordo{
+    background-color: white;
+    border-radius: 6px 6px;
+    width: 100%;
 }
